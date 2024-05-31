@@ -48,7 +48,7 @@ nav ul li {
 nav ul li a {
     text-transform: uppercase;
     font-size: 18px;
-    padding-left: 80px;
+    padding-left: 50px;
     color: #727172;
 }
 
@@ -203,4 +203,48 @@ header h2 {
 
 #contact ul img {
     padding-right: 40px;
+}
+
+/****** Projects Page Styles ******/
+.projects-hero{
+  background-color:  #F9EFEF;  
+}
+
+/**** Projects Page Projects Styles ****/
+#projects {
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
+#projects .content-wrapper {
+    padding: 115px 0;
+}
+
+#projects .projects-list {
+    float: left;
+    width: 300px;
+    padding: 0 50px;
+    text-align: left;
+}
+
+#projects h2{
+    font-size: 36px;
+    line-height: 80px;
+    font-family: "Lora", serif;
+}
+
+.projects-image {
+    width: 290px;
+}
+
+#projects h3{
+    font-size: 24px;
+    text-align: center;
+    margin: 30px 0 20px 0;
+}
+
+#projects p{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    line-height: 40px;
 }
